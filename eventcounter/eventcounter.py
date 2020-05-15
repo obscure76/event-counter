@@ -55,7 +55,6 @@ class EventCounter(object):
     def _bin_search(self, time_point):
         logging.debug("Finding time_point %s in the time series", time_point)
         l, r = 0, len(self.EVENTS)
-        m = 0
         while l < r:
             m = int((l + r) / 2)
             try:

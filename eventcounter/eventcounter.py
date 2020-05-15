@@ -71,7 +71,7 @@ class EventCounter(object):
     '''
     get_count returns the number of events that were recorded in
     the last duration seconds. The default value is 60 seconds. It
-    first locates the timepoint among the time series we stored from 
+    first locates the time point among the time series we stored from 
     which duration starts.  No matter how big the duration value is, 
     since we track only last 300 seconds of data, we return count for
     maximum duration of 300 seconds.

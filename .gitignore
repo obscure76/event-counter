@@ -1,7 +1,19 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+build/
+dist/
+*.egg-info/
+*.egg
 *.py[cod]
+__pycache__/
+*.so
+*~
 *$py.class
+venv
+bin
+*.idea/
+pyvenv.cfg
+
+include
 
 # C extensions
 *.so

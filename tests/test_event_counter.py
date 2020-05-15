@@ -1,6 +1,6 @@
-from unittest import TestCase
 import time
-from src.eventcounter import EventCounter
+from unittest import TestCase, main
+from eventcounter.eventcounter import EventCounter
 
 
 class TestEventCounter(TestCase):
@@ -36,3 +36,7 @@ class TestEventCounter(TestCase):
         assert event_counter._bin_search(7) == 2
         assert event_counter._bin_search(11) == 3
         assert event_counter._bin_search(-1) == 0
+
+
+if __name__ == '__main__':
+    main()

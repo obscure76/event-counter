@@ -15,3 +15,7 @@ It exposes two APIs:
 `event_counter.increment()`
 
 `count = event_counter.get_count(duration=30)`
+
+
+#Unit tests:
+`coverage run -m pytest`

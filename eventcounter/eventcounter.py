@@ -81,3 +81,7 @@ class EventCounter(object):
         time_point = int(time.time() - duration)
         index = self._bin_search(time_point)
         return max(len(self.EVENTS) - index, 0)
+
+
+if __name__ == '__main__':
+    print('event counter invoked')

@@ -7,7 +7,7 @@ It exposes two APIs:
 2) get_count()
 
 
-#Usage:
+# Usage:
 
 
 `event_counter = EventCounter()`
@@ -16,6 +16,5 @@ It exposes two APIs:
 
 `count = event_counter.get_count(duration=30)`
 
-
-#Unit tests:
+# Unit tests:
 `coverage run -m pytest`
